@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/bye-bye-eneance/static/css/main.75c95218.css",
-    "main.js": "/bye-bye-eneance/static/js/main.41aea22d.js",
+    "main.js": "/bye-bye-eneance/static/js/main.f760dfee.js",
     "static/js/787.02a57667.chunk.js": "/bye-bye-eneance/static/js/787.02a57667.chunk.js",
     "static/media/Burgerking-project.jpeg": "/bye-bye-eneance/static/media/Burgerking-project.218eada5a1a7e4a57be2.jpeg",
     "static/media/Marco.jpeg": "/bye-bye-eneance/static/media/Marco.475118b5d5b038ecdd1e.jpeg",
     "static/media/Laura.jpeg": "/bye-bye-eneance/static/media/Laura.250700ed171fb7ecc449.jpeg",
     "static/media/Julien.jpeg": "/bye-bye-eneance/static/media/Julien.2a0d530e0774d8868493.jpeg",
+    "static/media/Collegues.jpeg": "/bye-bye-eneance/static/media/Collegues.ace3e5793204b5513315.jpeg",
     "static/media/William-short.jpeg": "/bye-bye-eneance/static/media/William-short.caca388c3daf3e025e4e.jpeg",
+    "static/media/Uno.jpeg": "/bye-bye-eneance/static/media/Uno.67778d7264139ce8bdf4.jpeg",
     "static/media/Seriously.jpeg": "/bye-bye-eneance/static/media/Seriously.fa9fbadb150fdacda6ed.jpeg",
     "static/media/Olivier.jpeg": "/bye-bye-eneance/static/media/Olivier.58ab04a36a7dbb43458e.jpeg",
+    "static/media/Back-fault.jpeg": "/bye-bye-eneance/static/media/Back-fault.768ff5ca5487370bedb8.jpeg",
     "static/media/Patriot.jpeg": "/bye-bye-eneance/static/media/Patriot.fa1885503c25aa99fcf4.jpeg",
     "static/media/Vincent-lumiere.jpeg": "/bye-bye-eneance/static/media/Vincent-lumiere.008b2c887673036c8591.jpeg",
     "static/media/Eneance-people.jpeg": "/bye-bye-eneance/static/media/Eneance-people.9008ac485f6c8e60b8e9.jpeg",
@@ -23,11 +26,11 @@
     "static/media/Arnaud.jpeg": "/bye-bye-eneance/static/media/Arnaud.f26a9f2e45de515ce9f3.jpeg",
     "index.html": "/bye-bye-eneance/index.html",
     "main.75c95218.css.map": "/bye-bye-eneance/static/css/main.75c95218.css.map",
-    "main.41aea22d.js.map": "/bye-bye-eneance/static/js/main.41aea22d.js.map",
+    "main.f760dfee.js.map": "/bye-bye-eneance/static/js/main.f760dfee.js.map",
     "787.02a57667.chunk.js.map": "/bye-bye-eneance/static/js/787.02a57667.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75c95218.css",
-    "static/js/main.41aea22d.js"
+    "static/js/main.f760dfee.js"
   ]
 }
