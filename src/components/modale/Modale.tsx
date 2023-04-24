@@ -13,6 +13,7 @@ const Modale = (props: Props) => {
   let dimension = { width: 0, height: 0 };
   if (form === "rv") dimension = { width: 320, height: 400 };
   if (form === "rvl") dimension = { width: 320, height: 470 };
+  if (form === "rvll") dimension = { width: 320, height: 600 };
   if (form === "rh") dimension = { width: 400, height: 320 };
   if (form === "s") dimension = { width: 400, height: 400 };
 

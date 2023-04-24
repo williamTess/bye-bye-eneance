@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { memo, useRef, useState } from "react";
 import { s } from "./style";
 import { Link } from "../../components/link/Link";
 import { useClickOutside } from "../../hooks/useClickOutside";
@@ -6,7 +6,7 @@ import Modale from "../../components/modale/Modale";
 
 import images from "../../images/";
 
-export const Home = () => {
+const HomeComponent = () => {
   const [currentMeme, setCurrentMeme] = useState<string>("");
   const [currentDimension, setCurrentDimension] = useState<string>("");
   const ref: React.RefObject<HTMLInputElement> = useRef(null);
@@ -84,12 +84,21 @@ export const Home = () => {
         <Hyper meme={images.BurgerKingProject} form={"s"}>
           (meme exemple)
         </Hyper>{" "}
-        et mes premiers collegues(meme exemple)
+        et mes premiers collegues{" "}
+        <Hyper meme={images.Collegue} form={"rvll"}>
+          (meme exemple)
+        </Hyper>
       </s.Part>
       <s.Part>
         J'aurai passé de très bons moments à vos côtés que ce soit les pauses
-        midi (meme commémoratif) ou les discussions entre 2/3 lignes de code
-        (meme de developpement)
+        midi{" "}
+        <Hyper meme={images.Uno} form={"rh"}>
+          (meme commémoratif)
+        </Hyper>{" "}
+        ou les discussions entre 2/3 lignes de code{" "}
+        <Hyper meme={images.BackFault} form={"s"}>
+          (meme de developpement)
+        </Hyper>{" "}
       </s.Part>
       <s.Part>
         Je vous souhaite à tous une très bonne continuation à tous ! Je vous
@@ -129,6 +138,10 @@ export const Home = () => {
           (Laura)
         </Hyper>
       </s.Part>
+      <s.Part>
+        Les vrais développeurs trouveront la suite de ce message comme des
+        grands keur keur
+      </s.Part>
 
       {currentMeme && (
         <Modale
@@ -140,3 +153,5 @@ export const Home = () => {
     </s.Container>
   );
 };
+
+export const Home = memo(HomeComponent);

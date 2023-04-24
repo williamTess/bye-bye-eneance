@@ -16,6 +16,9 @@ import No from "./No.jpeg";
 import Patriot from "./Patriot.jpeg";
 import Seriously from "./Seriously.jpeg";
 import Coolife from "./Cool-life.jpeg";
+import Uno from "./Uno.jpeg";
+import BackFault from "./Back-fault.jpeg";
+import Collegue from "./Collegues.jpeg";
 
 export default {
   BossLate,
@@ -36,4 +39,7 @@ export default {
   Patriot,
   Seriously,
   Coolife,
+  Collegue,
+  Uno,
+  BackFault,
 };
